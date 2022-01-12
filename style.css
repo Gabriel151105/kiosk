@@ -229,6 +229,7 @@ footer{
             position: relative;
             height: 500px;
             background-attachment: fixed;
+            background-position: 20%;
         }
 
         #reserva{
@@ -343,3 +344,18 @@ footer{
         text-align: center;
     }
 }
+
+@media screen and (min-height: 2600px){
+    #intro{
+        height: 500px;
+        background-image: url(back2.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+        
+    }
+
+
+    
+}
+
