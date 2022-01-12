@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: auto;
+    font-family: 'Oswald', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #44532a;
+}
+
+li:hover{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: sticky;
+    background-color: #EEB938;
+}
+
+
+
+#endereco{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+}
+
+
+#logo{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+}
+
+ul{
+    position: absolute;
+    right: 20px;
+    float: right;
+    top: 50%;
+    transform: translateY(-50%);
+    list-style: none;
+}
+li{
+    display: inline;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#intro{
+    height: 500px;
+    background-image: url(imgs/back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+#txt{
+    background-color: rgba(3, 3, 3, 0.295);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    color: #EEB938;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#container1{
+   margin-left: 50px;
+}
+
+#sec1{
+    height: 500px;
+    width: 100%;
+    position: relative;
+}
+
+#reserva{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 400px;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+
+#reserva h1{
+    color: #EEB938;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+#reserva p{
+    color: rgb(94, 94, 94);
+    font-size: 20px;
+}
+
+#raquete{
+    position: absolute;
+    left: 53%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#reserva_txt{
+    position: absolute;
+    background-color: #EEB938;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    text-align: justify;
+    
+}
+
+#reserva_txt:hover{
+    background-color: white;
+    border: 1px solid #EEB938;
+}
+
+
+#aulas{
+    position: absolute;
+    left: 50%;
+    
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+}
+
+#aula_btn{
+    background-color: #EEB938;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+
+#estrutura{
+    position: absolute;
+    right: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+}
+
+#sec2{
+    height: 300px;
+}
+
+footer{
+    text-align: center;
+    background-color:#EEB938 ;
+    width: 100%;
+}
+
+.cont{
+    display: inline-block;
+    padding: 15px;
+}
+
+@media screen and (max-width:800px) {
+    #raquete{
+        visibility: hidden;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        header{
+            height: 250px;
+        }
+        ul{
+            margin-top: 30px;
+            text-align: center;
+            position: absolute;
+            float: none;
+            top: 50%;
+            right: 50%;
+            transform: translate(50%, -50%);
+            list-style: none;
+        }
+
+        li{
+            display: block;
+            padding: 5px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            
+        }
+
+        #endereco{
+            visibility: hidden;
+            position: absolute;
+            top: 0px;
+        }
+
+        #intro{
+            
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            height: 500px;
+            background-attachment: fixed;
+        }
+
+        #reserva{
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            padding: 0px;
+            box-sizing: border-box;
+            text-align: justify;
+        }
+        
+        #reserva_txt{
+            position: absolute;
+            background-color: #EEB938;
+            padding: 10px;
+            border-radius: 10px;
+            font-weight: bold;
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+            
+            top: 85%;
+            left: 50%;
+
+            transform: translate(-50%, -85%);
+            text-align: center;
+        }
+
+        #reserva h1{
+            color: #EEB938;
+            font-family: 'Oswald', sans-serif;
+            margin-bottom: 10px;
+            font-size: 40px;
+            padding: 10px;
+        }
+        
+        #reserva p{
+            color: rgb(94, 94, 94);
+            font-size: 20px;
+            padding: 10px;
+        }
+        
+        #aulas{
+            position: absolute;
+            left: 50%;
+            
+            padding: 30px;
+            box-sizing: border-box;
+            text-align: center;
+            display: inline-block;
+        }
+
+        #sec2{
+            height: 500px;
+        }
+}
+
+@media screen and (max-width: 355px){
+
+    #reserva_txt{
+        position: absolute;
+        background-color: #EEB938;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        
+        top: 95%;
+        left: 50%;
+
+        transform: translate(-50%, -95%);
+        text-align: center;
+    }
+    #reserva h1{
+        color: #EEB938;
+        font-family: 'Oswald', sans-serif;
+        margin-bottom: 10px;
+        font-size: 40px;
+        padding: 0px;
+        margin-left: 10px;
+    }
+
+    #sec2{
+        height: 500px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 300px){
+    #reserva h1{
+        color: #EEB938;
+        font-family: 'Oswald', sans-serif;
+        margin-bottom: 10px;
+        font-size: 40px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    #reserva_txt{
+        position: absolute;
+        background-color: #EEB938;
+        padding: 10px;
+        border-radius: 10px;
+        font-weight: bold;
+        font-family: 'Oswald', sans-serif;
+        font-size: 20px;
+        
+        top: 100%;
+        left: 50%;
+
+        transform: translate(-50%, -100%);
+        text-align: center;
+    }
+}
